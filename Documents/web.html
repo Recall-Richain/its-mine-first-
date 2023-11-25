@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VTU SGPA Calculator</title>
+  <link rel="stylesheet" type="text/css" href="sd.css">
+</head>
+<body>
+  <div class="calculator">
+    <h2>VTU SGPA Calculator</h2>
+    <label for="credits">Credits:</label>
+    <input type="number" id="credits" placeholder="Enter total credits"><br><br>
+    
+    <div id="subjects">
+      <!-- Subject inputs will be added dynamically using JavaScript -->
+    </div>
+    
+    <button onclick="calculateSGPA()">Calculate SGPA</button>
+    
+    <h3>Your SGPA: <span id="result">---</span></h3>
+  </div>
+
+  <script src="sc.js"></script>
+</body>
+</html>
